@@ -1,0 +1,81 @@
+.login-page{
+    background: url('https://ik.imagekit.io/ydypejhigaxo/hpe_bg_UDgR1Q2gv.svg?updatedAt=1685283261247');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.login-div-wrap {
+    background: linear-gradient(45.28deg, rgba(245, 126, 58, 1), rgba(119, 49, 229, 1));
+    padding: .13rem;
+    border-radius: 2.25rem;
+    position: relative;
+    margin: 1rem;
+}
+.login-div{
+    display: flex;
+    min-height: 340px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 355px;
+    background: #fefefe;
+    border-radius: 2.25rem;
+}
+.login-div h1 {
+    font-weight: 500;
+}
+.login-div p {
+    font-weight: 300;
+    text-align: center;
+    font-size: .9rem;
+    padding: .5rem .8rem 0;
+}
+.login-div hr {
+    background: rgba(4, 169, 131, 1);
+    width: 4rem;
+    height: .2rem;
+    border-radius: 1rem;
+}
+.body.dark .login-div{
+    background-color: gray;
+}
+
+.login-div>input{
+    min-width: 80%;
+    max-width: 90%;
+    height: 40px;
+    color: white;
+    border: none;
+    background: #cddaff;
+    border-radius: 6px;
+}
+.login-div>button{
+    padding: 10px;
+    margin: 1rem 0;
+    color: #fafafa;
+    background: rgba(4, 169, 131, 1);
+    border: none;
+    border-radius: 2.25rem;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+    padding: 1rem 2.3rem;
+}
+.login-div g{
+    border: white;
+}
+.login-div>button:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 12px rgba(26, 26, 26, 0.369);
+}

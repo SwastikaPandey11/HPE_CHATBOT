@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-Black.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-BlackItalic.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-Bold.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-BoldItalic.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-Light.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-LightItalic.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-Medium.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-MediumItalic.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-Regular.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-RegularItalic.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-Semibold.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-SemiboldItalic.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-Thin.woff') format("woff");
+}
+@font-face {
+    font-family: 'MetricHPE';
+    font-style: italic;
+    font-weight: 200;
+    src: url('../assets/hpe-fonts/MetricHPE-Web-ThinItalic.woff') format("woff");
+}
+

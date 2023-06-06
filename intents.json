@@ -1,0 +1,262 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","","Hello Chatbot","thankyou"],
+     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?","welcome"],
+     "context_set": ""
+    },{
+        "tag":"HPE",
+        "patterns":["What is HPE ?","Why HPE is famous?","Why should we use HPE Produccts?","What does HPE provides?","Why to trust HPE?","Are HPE products beneficial?"],
+        "responses":["From intelligent IT purchasing and workload planning to advanced application performance monitoring, HPE innovations accelerate your digital transformation with the power of data.","HPE accelerates and simplifies analytics and AI/ML initiatives","The Hewlett Packard Enterprise Company (HPE) is an American multinational information technology company based in Spring, Texas, United States.It is a global edge to cloud company built to transform your business. For more info visit https://www.hpe.com/in/en/about.html"],
+        "context_set":"HPE "
+      },
+    {
+      "tag":"HPE Alletra",
+      "patterns":["What is HPE Alletra?","What are some of the storage options for HPE?","Can you explain HPE Alletra?","Why to choose HPE Alletra?"],
+      "responses":["HPE Alletra Storage can seamlessly run any app without compromise from edge to cloud with a cloud experience for every workload.","HPE Alletra is a newly defined program","HPE Alletra 5000 delivers simple, reliable, cost-efficient hybrid storage for general-purpose workloads."],
+      "context_set":"HPE ALLETRA"
+    },
+    {
+      "tag":"HPE Alletra Options",
+      "patterns":["What are the advantages for HPE Alletra?","How can HPE Alletra help me?","What does HPE Alletra offer?","Can I get some insight on HPE Alletra"],
+      "responses":["We can Harness AI-driven infrastrucure, Get a built-for-cloud experience and consume as a service everywhere. For more information, visit https://www.hpe.com/us/en/hpe-alletra.html"],
+      "context_filter":"HPE ALLETRA"
+    },
+    {
+      "tag":"HPE Alletra AI",
+      "patterns":["How can HPE Alletra help in using AI?","can you please share the HPE Alletra AI's brochure?","How HPE Alletra and AI are connected?"],
+      "responses":["Achieve autonomous infrastructure with predictive intelligence across your IT. Powered by HPE InfoSight, HPE Alletra eliminates complexity, transforms the way you manage resources, and redefines the support experience. End the constant fire-fighting and get your time back. For more info,visit https://www.hpe.com/us/en/hpe-alletra.html"],
+      "context_set":"HPE ALLETRA AI"
+    },
+    {
+        "tag":"HPE Alletra Cloud",
+        "patterns":["How can HPE Alletra is using cloud?","How is cloud integerated with HPE Alletra?","What are the benefits provided by the cloud?",""],
+        "responses":["Accelerate with a true cloud operational experience that provides the same agility and simplicity for every app, across application lifecycles and from edge to cloud. ","Deploy resources with auto-discovery and zero configuration for more info,visit https://www.hpe.com/us/en/hpe-alletra.html"],
+        "context_set":"HPE ALLETRA Cloud"
+      },
+      {
+        "tag":"HPE Alletra Cloud",
+        "patterns":["Can you give more details about cloud service?","How is consumer as a service provided"],
+        "responses":["Instead of owning and maintaining infrastructure, utilize it on demand and as a service. HPE Alletra delivers cloud-native simplicity and the flexibility to consume resources exactly as and when you need them. for more info,visit https://www.hpe.com/us/en/hpe-alletra.html"],
+        "context_filter":"HPE ALLETRA Cloud"
+      },
+
+   
+    {
+        "tag":"HPE Alletra partners and clients",
+        "patterns":["Who are the partners for HPE Alletra?","Share the clients of HPE Alletra?","Who are the partners and clients for HPE Alletra?"],
+        "responses":["Balz informatik,Commvault,iland,Nth Generation,Veeam and many more"],
+        "context_filter":"HPE ALLETRA"
+        
+    },
+    {
+        "tag":"HPE Alletra portfolio",
+        "patterns":["What are series offered by HPE Alletra?","How many series given by HPE Alletra?"],
+        "responses":["HPE Alletra 5000 series,HPE Alletra 6000 series and HPE Alletra 9000 series"],
+        "context_set":"HPE Alletra Series"
+        
+    },
+    {
+        "tag":"HPE Alletra 5000 series",
+        "patterns":["What is HPE Alletra 5000 Series?","Can you tell about 5000 series?"],
+        "responses":["Offers reliable, cost-efficient hybrid flash performance","Adaptively designed for a mix of primary workloads and secondary backup and disaster recovery. Combines a flash-enhanced architecture with HPE InfoSight predictive analytics for fast, reliable access to data ","Ideally suited for workloads that do not require an all-flash solution. For more info,visit https://www.hpe.com/us/en/hpe-alletra.html"],
+        "context_filter":"HPE Alletra Series"
+        
+    },
+    {
+        "tag":"HPE Alletra 6000 series",
+        "patterns":["What is HPE Alletra 6000 Series?","Can you tell about 6000 series?"],
+        "responses":["Built on an ultra-efficient architecture for fast, consistent performance and industry-leading data efficiency. Ensure resiliency with guaranteed","Designed for business-critical workloads with strict availability and performance SLAs.For more info,visit https://www.hpe.com/us/en/hpe-alletra.html"],
+        "context_filter":"HPE Alletra Series"
+        
+    },
+    {
+        "tag":"HPE Alletra 9000 series",
+        "patterns":["What is HPE Alletra 9000 Series?","Can you tell about 9000 series?"],
+        "responses":["Delivers mission-critical reliability without sacrificing agility. Consolidate traditional and modern mission-critical apps with All-NVMe performance, ultra-low latency, and guaranteed 100% data availability","Optimized for workloads with extreme latency and availability requirements.For more info,visit https://www.hpe.com/us/en/hpe-alletra.html"],
+        "context_filter":"HPE Alletra Series"
+        
+    },
+    {
+        "tag":"HPE Alletra products",
+        "patterns":["What are Featured products of HPE Alletra?","Can you share the products by HPE Alletra"],
+        "responses":["Turn data into intelligence,HPE GreenLake for Block storage and HPE Ezmeral Data Fabric.For more information,visit https://www.hpe.com/us/en/hpe-alletra.html"],
+        "context_set":"HPE Alletra products"
+        
+    },
+    {
+        "tag":"HPE Alletra AI product",
+        "patterns":["What benefits does AI products of HPE Alletra offers?","How data is converted to intelligence?","why to choose HPE Alletra AI product?"],
+        "responses":["A single source of truth from data to make smart decisions and recommendations to customers.For more information,visit https://www.hpe.com/us/en/solutions/data/transform-data-into-intelligence.html"],
+        "context_filter":"HPE Alletra products"
+        
+    },
+    {
+        "tag":"HPE Greenlake ",
+        "patterns":["For what purpose HPE Greenlake is used?","What are the benefits offered by HPE Greenlake?","Why to choose HPE Greenlake?","What make HPE Greenlake special?"],
+        "responses":["Unlock agility and speed the pace of new apps, services, and initiatives with self-service, SLA-based block storage.For more information,visit https://www.hpe.com/us/en/hpe-greenlake-block-storage.html"],
+        "context_set":"HPE Greenlake"
+        
+    },
+    {
+        "tag":"HPE Ezmeral Data Fabric",
+        "patterns":["What are Featured products of HPE Alletra?","Can you share the products by HPE Alletra","Why to choose HPE Ezmeral?","What makes HPE Ezmeral stand apart?"],
+        "responses":["Increase data integrity and trust by unifying and processing different data types into a single logical data store.For more information,visit https://www.hpe.com/us/en/hpe-ezmeral-data-fabric.html"],
+        "context_filter":"HPE Alletra products"
+        
+    },
+    {
+        "tag":"HPE Greenlake information",
+        "patterns":["What are the platform benefits of HPE Greenlake? ","Any hands-on experience of HPE Greenlake","How can we have a trial on HPE Greenlake?"],
+        "responses":["sign in to access test-drive: https://auth.hpe.com/hpe/cf/?fromURI=%252Foauth2%252Fv1%252Fauthorize%252Fredirect%253Fokta_key%253DmEwsBBs-j345YuVXA-NOEA4QbCx0s3usMNJv8089jeU"],
+        "context_filter":"HPE Greenlake"
+        
+    },
+    {
+        "tag":"HPE Greenlake information",
+        "patterns":["What are the platform benefits of HPE Greenlake? ","Any hands-on experience of HPE Greenlake"],
+        "responses":["sign in to access test-drive: https://auth.hpe.com/hpe/cf/?fromURI=%252Foauth2%252Fv1%252Fauthorize%252Fredirect%253Fokta_key%253DmEwsBBs-j345YuVXA-NOEA4QbCx0s3usMNJv8089jeU"],
+        "context_filter":"HPE Greenlake"
+        
+    },
+
+    {
+        "tag":" HPE Alletra contact details",
+        "patterns":["how can I contact the team of HPE Alletra?","Can you give me contact details for HPE Alletra?","Whom to contact for more details for HPE Alletra?"],
+        "responses":["visit https://www.hpe.com/us/en/contact-hpe.html","follow us on linkedIn:https://www.linkedin.com/company/hewlett-packard-enterprise, twitter:https://twitter.com/hpe, facebook:https://www.facebook.com/HewlettPackardEnterprise/, YouTube:https://www.youtube.com/@hpe"],
+        "context_set":"HPE Alletra contact"
+    },
+    {
+        "tag":"HPE Primera",
+        "patterns":["What is HPE Primera?","What are some of the storage options for HPE?","Can you explain HPE Primera?"],
+        "responses":["HPE has been named a Leader in the 2022 Gartner® Magic Quadrant™ for Primary Storage.HPE Primera is the world’s most intelligent storage for mission-critical apps. ","HPE Alletra is a newly defined program","combines autonomous operations with extreme resiliency and performance."],
+        "context_set":"HPE Primera"
+      },
+      {
+        "tag":"HPE Primera Options",
+        "patterns":["How can HPE Primera help me?","What does HPE Primera offer?","Can I get some insight on HPE Primera","Why to choose HPE Primera?"],
+        "responses":["Built with the agility of cloud and powered by the intelligence of HPE InfoSight, HPE Primera delivers instant access to data with storage that sets up in minutes, upgrades transparently, and is delivered as a service. Plus, it’s backed by a 100% availability guarantee., visit https://www.hpe.com/us/en/storage/hpe-primera.html","For finding why HPE primera is suitable for you visit https://www.hpe.com/psnow/doc/a00074522enw.pdf?jumpid=in_pdfviewer-psnow","provides guaranteed 100% availabilty,93% time savings,20minutes from rack to apps"],
+        "context_filter":"HPE Primera"
+      },
+
+      {
+        "tag":"HPE Primera advantages",
+        "patterns":["What are the advantages for HPE Primera?","what are the pros of HPE Primera?","Why HPE Primera is special?"],
+        "responses":["HPE Primera redefines high-end storage with unparalleled simplicity, extreme resiliency and performance, and the most advanced intelligence in the industry."," instant access to data from self-managing storage that’s delivered as-a-service and leverage guaranteed3 100% availability and unmatched performance to eliminate disruptions and ensure your mission-critical apps are always-fast, even at scale.","You can Future-proof your storage investment with all-inclusive licensing, non-disruptive upgrades, flat support pricing, and much more.For more information,visit https://www.hpe.com/us/en/storage/hpe-primera.html"],
+        "context_filter":"HPE Primera"
+      },
+      
+      {
+      "tag":"HPE Cloud",
+      "patterns":["Can you give more details about cloud service provided by HPE?","How cloud operational experience is enhanced?"],
+      "responses":["HPE Infosight and HPE CloudPhysics provide data-driven intelligence to elevate the HPE GreenLake edge-to-cloud platform."],
+      "context_set":"HPE Cloud"
+    },
+
+    {
+        "tag":"HPE Primera Innovation",
+        "patterns":["Can you give more details about HPE Primera innovation factors?","What innovation does HPE provides?","Can you give some insight on HPE innovation?"],
+        "responses":["HPE Primera provides a storage experience unmatched in the industry with a series of unique innovations across intelligence, hardware, and software. These technologies make possible HPE Primera’s instant access to data, 100% data availability guarantee6, and always-fast, ultra-low latency.","It provides Global Intelligence,all-active architecture,service-centric OS,100% availability gaurantee and cloud services"],
+        "context_set":"HPE Primera Innovation"
+    },
+    {
+        "tag":"HPE Global Intelligence",
+        "patterns":["How HPE provides Global Intelligence?","Can you give me details about global Intelligence?","What is Global Intelligence?","How HPE gives Global Intelligence?"],
+        "responses":["Achieve autonomous operations with AI-driven predictive intelligence across your apps and infrastructure. Powered by HPE InfoSight, HPE Primera optimizes app performance, workload placement, and infrastructure health in real time.For more information,visit https://www.hpe.com/us/en/solutions/infosight.html"],
+        "context_filter":"HPE Primera Innovation"
+    },
+    {
+        "tag":"HPE all-active architecture",
+        "patterns":["How HPE provides all-active architecture?","Can you give me details about active-achitecture?","What is all-active achitecture?","How HPE gives active architecture?"],
+        "responses":["Featuring a unique, massively parallel, all-active architecture, HPE Primera is optimized for all-NVMe and ideal for consolidating traditional and next-gen mission-critical apps. All volumes are active on all controllers, host ports, and media at all times — with no tuning required.For more information,visit https://www.hpe.com/psnow/doc/a50000189enw.pdf?jumpid=in_pdfviewer-psnow"],
+        "context_filter":"HPE Primera Innovation"
+    },
+    {
+        "tag":"HPE service centric OS",
+        "patterns":["How HPE provides service centric OS?","Can you give me details about service centric OS?","What is service centric OS?","How HPE gives service centric OS?"],
+        "responses":["The HPE Primera OS is unique in its class: it enables self-install and self-upgrade in minutes with a single click, delivers extreme resiliency, and accelerates access to new innovation.For more information,visit https://www.hpe.com/psnow/doc/a00074519enw.pdf?jumpid=in_pdfviewer-psnow"],
+        "context_filter":"HPE Primera Innovation"
+    },
+    {
+        "tag":"HPE availability gaurantee",
+        "patterns":["How HPE provides gauranteed availability?","Can you give me details about availability?","What is guaranteed availability?","How HPE gives guaranteed availbility?"],
+        "responses":["Building on a global intelligence and an all-active architecture, HPE Primera dramatically raises the bar on mission-critical reliability. Its 100% data availability guarantee8 comes standard with Proactive Care or higher support.For more information,visit https://www.hpe.com/psnow/doc/a00074521enw.pdf?jumpid=in_pdfviewer-psnow"],
+        "context_filter":"HPE Primera Innovation"
+    },
+    {
+        "tag":"HPE cloud service",
+        "patterns":["How HPE provide cloud services?","Can you give me details about cloud services?","What is cloud services?","How HPE gives cloud services?"],
+        "responses":["HPE GreenLake offers a Tier-0, mission-critical storage solution that unleashes the value of your data from edge to cloud while supporting high-performance workloads such as large-scale databases (e.g. SAP HANA, Oracle, or SQL Server), enterprise resource planning (ERP), and transaction processing.","Cloud services provided by  HPE are highly scalable, suitable for even the most latency-sensitive workloads, and it's delivered as-a-service in your on-premises or co-located data center.For more information,visit https://www.hpe.com/us/en/greenlake/mission-critical-storage.html"],
+        "context_filter":"HPE Primera Innovation"
+    },
+    
+    {
+        "tag":"HPE Primera solution",
+        "patterns":["What are the solutions provided by HPE Primera?","Can you give details about HPE Primera soution?","Can you share the different options provided by HPE Primera?"],
+        "responses":["HPE Infosight,HPE Cloud Bank Storage,HPE StoreOnce Data Protection Backup Appliances,HPE Synergy and HPE Recovery Manager Central"],
+        "context_set":"HPE Primera solution"
+    },
+    {
+        "tag":"HPE Infosight",
+        "patterns":["What is HPE Infosight?","Can you give details about HPE Infosight?","Why to choose HPE Infosight?"],
+        "responses":["HPE Infosight provides Optimize performance and predict and prevent problems by adding AI-driven operations that combine cloud-based machine learning with performance monitoring.","Infosight provides 86% of issues automatically predicted and resolved, 85% less time managing problems and 54% of problems resolved are beyond storage." ],
+        "context_set":"HPE Infosight"
+    },
+    {
+        "tag":"HPE Infosight information",
+        "patterns":["What are the benefits provided by HPE Infosight?","What are the pros of HPE Infosight?","How can HPE Infosight help me?"],
+        "responses":["HPE InfoSight delivers AI-powered autonomous operations that ensure your environment is always-on, always-fast, and always-agile.","HPE InfoSight’s industry-leading machine learning and AI collect and analyze huge quantities of data to protect every app by predicting and preventing issues","HPE InfoSight, together with HPE Pointnext Services, transforms support into an unmatched customer experience. It enables HPE Pointnext Services engineers to accelerate diagnostics and problem resolution. Features like dashboards, proactive reports, and analysis provide the support team with insight into patterns that humans can't detect quickly. The faster the identification and resolution, the better the outcome for the customer.For more information,visit https://www.hpe.com/us/en/solutions/infosight.html" ],
+        "context_filter":"HPE Infosight"
+    },
+    {
+        "tag":"HPE Infosight trial",
+        "patterns":["What are the platform benefits of HPE Infosight? ","Any hands-on experience of HPE Greenlake"],
+        "responses":["For a trial drive visit:https://infosight-demo.ext.hpe.com/scenario/the-industry-s-most-advanced-ai-for-infrastructure/step/265  or sign in via HPE Greenlake :https://common.cloud.hpe.com/"],
+        "context_filter":"HPE Infosight"
+        
+    },
+    {
+        "tag":"HPE Cloud Bank Storage",
+        "patterns":["What is HPE Cloud Bank storage?","Can you give details about HPE Cloud Bank Storage?","Why to choose HPE Cloud Bank Storage?","What are the benefits provided by HPE Cloud Bank Storage?"],
+        "responses":["HPE Cloud Bank Storage enables simple and efficient backup to the cloud for long term retention, disaster recovery, and archiving. It Leverage the cloud platform of your choice, including AWS S3, Microsoft Azure, and Scality.","It is economic ,reliable and efficient.For more information,visit https://www.hpe.com/us/en/storage/storeonce.html"],
+        "context_filter":"HPE Primera solution"
+    },
+    {
+        "tag":"HPE StoreOnce Data Protection Backup Appliance ",
+        "patterns":["What is HPE StoreOnce Data Protection Backup Appliance?","Can you give details about HPE StoreOnce Data Protection Backup Appliance?","Why to choose HPE StoreOnce Data Protection Backup Appliance?","What are the benefits provided by HPE StoreOnce Data Protection Backup Appliance?"],
+        "responses":["HPE StoreOnce Data Protection Backup Appliance Backup appliances offer simple affordable and flexible data protection with rapid recovery and application integration.","It simplify operations,deliver on SLAs and protect the data on your own way.For more information,visit https://www.hpe.com/us/en/storage/storeonce.html"],
+        "context_filter":"HPE Primera solution"
+    },
+
+    {
+        "tag":"HPE Synergy",
+        "patterns":["What is HPE Synergy?","Can you give details about HPE Synergy?","Why to choose HPE Synergy?","What are the benefits provided by HPE Synergy?"],
+        "responses":["HPE Synergy is the World’s first platform architected for composable infrastructure, an adaptable Hybrid IT engine built for today’s workloads and tomorrow’s disruptors.","HPE Synergy is a composable, software-defined infrastructure for hybrid cloud environments which enable you to compose fluid pools of physical and virtual compute, storage and fabric resources into any configuration for any workload under a unified API, all available as a service through HPE GreenLake.For more information,visit https://www.hpe.com/us/en/integrated-systems/synergy.html"],
+        "context_filter":"HPE Primera solution"
+    },
+    {
+        "tag":"HPE Recovery Manager Central ",
+        "patterns":["What is Recovery Manager Central?","Can you give details about HPE Recovery Manager Central?","Why to choose HPE Recovery Manager Central?","What are the benefits provided by HPE Recovery Manager Central?"],
+        "responses":["HPE Recovery Manager Central LeverageS flash-integrated and cloud-ready data protection with converged snapshot, replication, backup, copy data management, and data mobility services at the speed of all-flash.","HPE Recovery Manager Central realize flash speed protection,take the time and stress out of data protection and get more from your backups.For more information,visit https://www.hpe.com/us/en/storage/rmc-backup.html"],
+        "context_filter":"HPE Primera solution"
+    },
+    {
+        "tag":" HPE newsletter",
+        "patterns":["What are the recent release in HPE products","share some news about HPE?"],
+        "responses":["Newsroom :https://www.hpe.com/us/en/newsroom.html,events: https://www.hpe.com/us/en/discover-more-network/events.html, webinars: https://www.hpe.com/us/en/webinars.html, pressletters: https://www.hpe.com/us/en/newsroom/press-release/2020/06/hewlett-packard-enterprise-advances-the-intelligent-data-platform-to-deliver-unmatched-agility-and-business-continuity-with-autonomous-operations-and-storage-class-memory.html,https://www.hpe.com/us/en/storage/magic-quadrant-primary-storage.html"],
+        "context_set":"HPE news"
+    },
+    {
+        "tag":" HPE Community",
+        "patterns":["how can I get reviews about the products?","How much Users are satisfied with the product?","How strong is the HPE Community?"],
+        "responses":["Please visit : https://community.hpe.com/"],
+        "context_set":"HPE Community"
+    },
+
+      {
+        "tag":" HPE Primera contact details",
+        "patterns":["how can I contact the team of HPE Primera?","Can you give me contact details for HPE Primera?","Whom to contact for more details for HPE Primera?"],
+        "responses":["https://www.hpe.com/us/en/storage/hpe-primera.html","follow us on linkedIn:https://www.linkedin.com/company/hewlett-packard-enterprise, twitter:https://twitter.com/hpe, facebook:https://www.facebook.com/HewlettPackardEnterprise/, YouTube:https://www.youtube.com/@hpe"],
+        "context_set":"HPE Alletra contact"
+    }
+]
+}

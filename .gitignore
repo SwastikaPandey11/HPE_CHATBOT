@@ -1,0 +1,12 @@
+__pycache__
+tflearn_logs
+checkpoint
+model.tflearn.index
+model.tflearn.meta
+model.tflearn.data-00000-of-00001
+training_data
+*.env
+*.env.local
+**/node_modules
+.vscode
+

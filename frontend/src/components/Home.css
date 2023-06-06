@@ -1,0 +1,116 @@
+@import url(./fonts.css);
+.home-page-wrapper {
+    background: linear-gradient(45.28deg, rgba(245, 126, 58, 1), rgba(119, 49, 229, 1));
+    height: 100vh;
+    padding: .9rem;
+    transition: all .1s ease-in-out;
+}
+.home__page{
+    background: url('https://ik.imagekit.io/ydypejhigaxo/hpe_bg_UDgR1Q2gv.svg?updatedAt=1685283261247');
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+}
+
+.home__nav{
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.home__btn{
+    margin: 1rem 0;
+    border: none;
+    border-radius: .75rem;
+    background-color: rgba(4, 169, 131, 1);
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+    padding: .75rem 2.3rem;
+    transition: all .1s ease-in-out;
+}
+.home__btn:hover{
+    transform: scale(1.01);
+}
+.nav__logo{
+    font-weight: 800;
+    font-size: 1.3rem;
+    color:rgba(4, 169, 131, 1);
+    letter-spacing: -.1px;
+    cursor: pointer;
+}
+.home__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.nav__buttons a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.content__heading{
+    font-weight: bold;
+    font-size: 40px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content__heading span {
+    color:rgba(4, 169, 131, 1);
+}
+.content__subheading{
+    font-size: 18px;
+    opacity: 0.7;
+    text-align: center;
+}
+.content__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2rem;
+}
+.home__btndoc {
+    width: 11rem;
+    padding:.9rem 0;
+    border: none;
+    border-radius: .75rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: .95rem;
+    transition: all .1s ease-in-out;
+}
+
+.btn-prim {
+    background: rgba(4, 169, 131, 1);
+    color: white;
+}
+
+.btn-second {
+    background: white;
+    border: 2px solid rgba(4, 169, 131, 1);
+}
+.home__btndoc:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 2px rgba(26, 26, 26, 0.369);
+}
+.content__buttons a{
+    text-decoration: none;
+    color: inherit;
+}
